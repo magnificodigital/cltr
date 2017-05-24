@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.titPortfolio{
+	width:152px;
+	margin:0 auto;
+	position:relative;
+	color:#333;	
+}
+
+.subtitPortfolio{
+	width:618px;
+	margin:0 auto;
+	position:relative;
+	color:#333;
+	margin-top:5px;
+}
+
+.divPortfolio{
+	width:100%;
+	height:2px;
+	background-color:#ccc;
+	margin-top:30px;
+}
+
+.divMenuPortfolio{
+	position:relative;
+	margin-top:40px;
+	height:20px;
+}
+
+.navPortfolio{
+	width:820px;
+	margin:0 auto;	
+}
+
+.navPortfolio li{
+	float:left;
+	margin-left:22px;	
+}
+
+.boxInfosPorfolio{
+	position:relative;
+	margin-top:40px;
+	padding-bottom:100px;
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+.boxInfosPorfolio ul{
+	width:980px;
+	margin:0 auto;
+}
+
+.boxInfosPorfolio ul li{
+	float:left;
+	width:196px;
+	height:198px;
+	position:relative;
+	cursor: pointer;
+}

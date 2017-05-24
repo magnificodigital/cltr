@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("reset.css");
+@import url("fontes.css");
+
+body{
+	overflow-x:hidden;	
+}
+
+.navbar {
+    overflow: visible;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    left: 0;
+    margin-bottom: 0;
+    position: fixed;
+    right: 0;
+    z-index: 99;
+	top: 0;
+}
+
+.navbar-inner{
+	width:100%;
+	background-color:#339966;
+	min-height:78px;
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+
+.navbar-fixed-top .brand {
+	width:128px;
+	height:49px;
+	padding:10px 0;
+	display:block;
+	float:left;
+}
+
+.nav{
+	display:block;
+	margin-left:70px;
+    position: relative;
+	float:left;	
+}
+
+.navbar-fixed-top .nav li{
+	padding-top:30px;
+	padding-bottom:25px;
+	padding-right:20px;
+	padding-left:20px;
+	float:left;
+}
+
+.navbar-fixed-top .nav .active {
+    border-bottom: 5px solid #000;
+}
+
+.navbar-fixed-top .nav .active a{
+    color:#000;
+}
+
+.fale-conosco{
+	padding: 25px 0;	
+	float:right;
+}
+
+#banner{
+	display:none;	
+}
+
+#main {
+    min-width: 970px !important;
+}
+
+#home .wrap-home {
+    height: 600px;
+    left: 0;
+    min-width: 940px !important;
+    position: absolute;
+    width: 100%;
+}
+
+#home #slider_banner {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+#slider_banner .bx-wrapper {
+    /*width:1600px;*/
+	width:100%;
+	padding: 0;
+    position: relative;
+	margin:0 auto;
+}
+
+.bx-wrapper {
+    max-width:1600px;
+	padding: 0;
+    position: relative;
+	margin:0 auto;
+}
+
+#bg { position: relatrive; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 600px; }
+
+#home {
+    height: 600px;
+    min-width: 940px !important;
+}
+
+#empresa, #servicos{
+	min-height:500px;	
+}
+
+body .btn-top {
+    background-image: url("../imgs/sprite.png");
+    background-position: -37px -730px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    display: none;
+    height: 50px;
+    opacity: 0.9;
+    position: fixed;
+    right: 10px;
+    width: 74px;
+}
+
+body .btn-top:hover {
+    background-position: -132px -730px;
+}
+
+.clearDiv{
+	clear:both;
+}
+
+.footer{
+	width:100%;
+	background-color:#339966;
+	height:300px;
+}
+
+
+.menuHome{
+	width:836px;
+	height:501px;
+	position:relative;
+	margin-top:-130px;
+	margin-left:162px;
+}
+
+.btEmpresaHome{
+	position:absolute;
+	right:0;
+	top:0;	
+}
+
+.btServicosHome{
+	position:absolute;
+	top:167px;
+	left:168px;	
+}
+
+.btPortfolioHome{
+	position:absolute;
+	top:167px;
+	left:335px;	
+}
+
+.btPort1Home{
+	position:absolute;
+	top:167px;
+	left:502px;	
+}
+
+.btPort2Home{
+	position:absolute;
+	top:167px;
+	left:669px;	
+}
+
+.btPort3Home{
+	position:absolute;
+	top:334px;
+	left:1px;	
+}
+
+.btPort4Home{
+	position:absolute;
+	top:334px;
+	left:168px;	
+}
+
+.btContatoHome{
+	position:absolute;
+	top:334px;
+	left:335px;	
+}
+
+.titHome{
+	left: 379px;
+    position: absolute;
+    top: 82px;
+	color:#FFF;
+	text-align:right;	
+}
+
+.descTitHome{
+	color: #FFFFFF;
+    left: 416px;
+    position: absolute;
+    text-align: right;
+    top: 174px;
+	line-height:16px;
+}
+
+.infosContatoHome{
+	position: absolute;
+    right: 0;
+    top: 450px;
+	text-align:right;
+}
+
+.endContatoHome{
+	position: relative;
+    margin-top:17px;
+	line-height:17px;
+}

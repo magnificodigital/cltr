@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.titServicos{
+	width:140px;
+	margin:0 auto;
+	position:relative;
+	color:#333;	
+}
+
+.subtitServicos{
+	width:750px;
+	margin:0 auto;
+	position:relative;
+	color:#333;
+	margin-top:5px;
+}
+
+.divServicos{
+	width:100%;
+	height:2px;
+	background-color:#ccc;
+	margin-top:30px;
+}
+
+.boxInfosServicos{
+	position:relative;
+	margin-top:40px;
+	height:360px;
+	padding-bottom:100px;
+}
+
+.descIndoServ{
+	position:relative;
+	text-align:center;
+}
+
+.titBxinfoServ{
+	margin-top:51px;
+	text-align:center;
+}
+
+.boxImgServ{
+	position:relative;	
+}
+
+.boxInfosServicos ul li{
+	float:left;
+	position:relative;
+}
+
+.btOver{
+	position:absolute;
+	left:0;
+	top:0;	
+}

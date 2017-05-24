@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.titEmpresa{
+	width:560px;
+	margin:0 auto;
+	position:relative;
+	color:#333;	
+}
+
+.boxInfoEmpresa{
+	position:relative;
+	margin-top:60px;
+	height:284px;	
+}
+
+.txtInfoEmpresa{
+	position:absolute;
+	left:0;
+	top:0;
+	width:460px;
+	color:#333;
+	text-align:justify;
+	line-height:15px;
+}
+
+.imgEmpresa{
+	position:absolute;
+	right:0;
+	top:0;	
+}
+
+.boxCLientes{
+	position:relative;
+	margin-top:47px;
+	height:204px;	
+}
+
+.titClientes{
+	color:#339967;	
+}
+
+.boxImgsClientes{
+	position:relative;
+	margin-top:32px;	
+}
+
+.rowEmp:before, rowEmp:after{
+	content: "";
+    display: table;
+    line-height: 0;
+}
+
+.rowEmp:after{
+	clear:both;	
+}
+
+.rowEmp{
+	margin-top:37px;
+	background: url("../imgs/divisoria_empresa.jpg") repeat-y scroll center top transparent;
+    padding: 25px 0;
+	height:820px;
+}
+
+.rowEmp ul li{
+	float: left;
+    list-style: none outside none;
+    margin: 25px 0;
+    min-height: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.rowEmp ul li span{
+	height: 14px;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    top: 96px;
+    width: 14px;
+}
+
+.rowEmp ul li .texto{
+	width:426px;
+	text-align:justify;
+	margin-left: 40px;
+	left: 50%;
+    position: absolute;
+    top: 18px;
+	line-height:16px;
+	opacity:0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+.rowEmp ul li h3{
+	color:#339967;
+	font-weight:normal;
+	padding-bottom:40px;
+}
+
+.iconsEmpresa{
+	width:233px;
+	height:229px;
+	display:block;
+	opacity:0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+.verdeClaro{
+	background-color: #33cc66;
+}
+
+.verdeEscuro{
+	background-color: #339967;
+}

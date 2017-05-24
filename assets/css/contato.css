@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.titContato{
+	position:relative;
+	color:#333;	
+}
+
+.infoContato{
+	position:relative;
+	margin-top:30px;
+	line-height:20px;
+	height:150px;
+}
+
+.input{
+	width:272px;
+	height:50px;
+	background-color:#ccc;
+	border:none;
+	color:#fff;
+	padding-left:10px;
+}
+
+.textarea{
+	background-color:#ccc;
+	border:none;
+	color:#fff;
+	padding-left:10px;
+	width:359px;
+	height:82px;
+	resize:none;
+	padding-top:10px;
+	margin-top: 3px;	
+}
+
+.formContato{
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 580px;	
+}
+
+.titForm{
+	color: #333333;
+    left: 419px;
+    position: absolute;
+    top: 92px;
+}
+
+.btEnviar{
+	position: absolute;
+    right: 11px;
+    top: 55px;
+}
+
+.boxMapaContato{
+	position:relative;
+	margin-top:30px;
+	height:395px;
+	margin-bottom:35px;	
+}
